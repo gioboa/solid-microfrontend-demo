@@ -1,0 +1,24 @@
+{
+	"name": "solid-microfrontend-demo",
+	"version": "1.0.0",
+	"description": "Solid Module Federation is now possible",
+	"main": "index.js",
+	"scripts": {
+		"install:deps": "pnpm install && pnpm -r install",
+		"postinstall:deps": "pnpm run build",
+		"dev": "pnpm -r dev",
+		"build": "pnpm -r build",
+		"serve": "pnpm -r serve",
+		"prepare": "husky install"
+	},
+	"author": {
+		"name": "Giorgio Boa",
+		"email": "giorgiob.boa@gmail.com",
+		"url": "https://github.com/gioboa"
+	},
+	"license": "ISC",
+	"devDependencies": {
+		"husky": "^8.0.0",
+		"prettier": "^2.8.2"
+	}
+}
